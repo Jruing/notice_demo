@@ -107,7 +107,6 @@ type LiteRequest struct {
 func (receiver *LiteRequest) Session() *LiteRequest {
 	// 创建一个 CookieJar 来存储 cookies
 	jar, _ := cookiejar.New(nil)
-
 	receiver.clients.Jar = jar
 	return receiver
 }

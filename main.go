@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//tools.Initdb()
 	// 强制日志颜色化
 	gin.ForceConsoleColor()
 	// 初始化路由

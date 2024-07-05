@@ -1,7 +1,9 @@
 package tools
 
 import (
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"notice_demo/models"
 	"xorm.io/xorm"
 )
 
@@ -11,11 +13,22 @@ func Initdb() *xorm.Engine {
 	if err != nil {
 		panic(err)
 	}
-	//err = pgEngine.Sync(new(models.User))
-	//if err != nil {
-	//	fmt.Println(err)
-	//	panic("用户表同步失败")
-	//}
+	err = pgEngine.Sync(new(models.User))
+	if err != nil {
+		fmt.Println(err)
+		panic("用户表同步失败")
+	}
+	err = pgEngine.Sync(new(models.Robot))
+	if err != nil {
+		fmt.Println(err)
+		panic("用户表同步失败")
+	}
+
+	err = pgEngine.Sync(new(models.Application))
+	if err != nil {
+		fmt.Println(err)
+		panic("用户表同步失败")
+	}
 
 	return pgEngine
 }
