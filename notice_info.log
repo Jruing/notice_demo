@@ -1,6 +1,6 @@
-{"level":"info","ts":"2024-07-04T22:53:26+08:00","msg":"用户查询函数","uuid":"2613d4a4-719e-488e-80c5-a18076ed041f","request_data":"map[]"}
+﻿{"level":"info","ts":"2024-07-04T22:53:26+08:00","msg":"用户查询函数","uuid":"2613d4a4-719e-488e-80c5-a18076ed041f","request_data":"map[]"}
 {"level":"info","ts":"2024-07-04T22:53:26+08:00","msg":"用户查询成功","uuid":"2613d4a4-719e-488e-80c5-a18076ed041f"}
 {"level":"info","ts":"2024-07-04T22:57:28+08:00","msg":"用户查询函数","uuid":"7887f8bf-8c29-407c-8534-d16ac9e779de","request_data":"map[page:1 pageSize:10]"}
-{"level":"info","ts":"2024-07-04T22:57:28+08:00","msg":"用户查询成功","uuid":"7887f8bf-8c29-407c-8534-d16ac9e779de"}
+{"level":"error","ts":"2024-07-04T22:57:28+08:00","msg":"用户查询失败","uuid":"7887f8bf-8c29-407c-8534-d16ac9e779de"}
 {"level":"info","ts":"2024-07-04T22:57:31+08:00","msg":"用户查询函数","uuid":"d2734fb9-26e5-4828-99b8-1eb68cfb05c4","request_data":"map[page:1 pageSize:1]"}
 {"level":"info","ts":"2024-07-04T22:57:31+08:00","msg":"用户查询成功","uuid":"d2734fb9-26e5-4828-99b8-1eb68cfb05c4"}

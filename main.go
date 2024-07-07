@@ -40,9 +40,9 @@ func main() {
 	// 邮件路由
 	email := router.Group("/email")
 	{
-		email.POST("/add", api.ApplicationAdd)
-		email.POST("/delete", api.ApplicationDelete)
-		email.POST("/update", api.ApplicationUpdate)
+		email.POST("/add", api.EmailAdd)
+		email.POST("/delete", api.EmailDelete)
+		email.POST("/update", api.EmailUpdate)
 		email.POST("/query", api.EmailQuery)
 	}
 
